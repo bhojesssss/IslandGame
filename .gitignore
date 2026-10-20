@@ -1,0 +1,65 @@
+# ===== Unity =====
+# Folder yang dibuat ulang otomatis oleh Unity saat project dibuka
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory capture dan rekaman bisa sangat besar
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Plugin Rider yang dibuat otomatis
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# File solution/project IDE yang dibuat ulang Unity
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta untuk file debug di atas
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Laporan crash Unity
+sysinfo.txt
+crashlytics-build.properties
+
+# Hasil build dan paket installer (isi paket sudah diimpor ke Assets)
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
+*.unitypackage.meta
+
+# Addressables dan StreamingAssets sementara
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== Sistem operasi =====
+.DS_Store
+Thumbs.db
+Desktop.ini
